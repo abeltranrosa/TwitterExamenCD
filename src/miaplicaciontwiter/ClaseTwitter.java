@@ -25,7 +25,7 @@ public class ClaseTwitter {
 
         DirectMessage message;
         try {
-            message = twitter.sendDirectMessage("buenos dias chicos", "hoy hace un dia estupendo");
+            message = twitter.sendDirectMessage("hoy estoy haciendo un examen de contornos y no se como me saldra", "hoy hace un dia estupendo");
             System.out.println("Sent: " + message.getText() + " to @" + message.getRecipientScreenName());
         } catch (TwitterException ex) {
             Logger.getLogger(MiaplicacionTwitter.class.getName()).log(Level.SEVERE, null, ex);
